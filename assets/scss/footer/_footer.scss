@@ -1,0 +1,39 @@
+/*======= Footer =======*/
+.footer-area {
+    padding: 90px 0px 70px;
+    .container {
+        .row {
+            .footer-brand {
+                font-weight: 500;
+                font-size: 33px;
+                line-height: 1.25;
+                letter-spacing: 2.3px;
+                margin-bottom: 20px;
+            }
+            h4 {
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 1.63;
+                text-transform: capitalize;
+                margin-bottom: 15px;
+            }
+            a {
+                display: block;
+                &:not(last-child) {
+                    margin-bottom: 15px;
+                }
+            }
+            .social_icon {
+                a {
+                    display: inline-block !important;
+                    &:not(last-child) {
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+.copy_right {
+    margin-bottom: 20px;
+}

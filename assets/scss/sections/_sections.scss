@@ -1,0 +1,252 @@
+/*======= Specific Section =======*/
+.subscription-area {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    &::after {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background-color: #000;
+        z-index: -1;
+        opacity: 0.6;
+    }
+    h2 {
+        color: $color-white;
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 1.15;
+        text-transform: capitalize;
+    }
+    h4 {
+        color: $color-white;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1.63;
+        margin-bottom: 20px;
+    }
+    input {
+        border: 1px solid #ffd937;
+        width: fit-content;
+        border-radius: 10px;
+        padding: 20px;
+        padding-right: 120px;
+        margin-bottom: 20px;
+    }
+}
+
+//start about me css
+.about-me{
+    padding: 95px 0 50px;
+    .image-site{
+        img{
+            border-radius: 20px;
+            max-width: 400px;
+            max-height: 400px;
+        }
+    }
+    .para-site{
+        padding-left: 26px;
+        align-items: center;
+        padding-top: 30px;
+        h4{
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 39px;
+        }
+        span{
+            height: 3px;
+            width: 130px;
+            background-color: #ffd937;
+            margin: 20px 0 20px;
+            text-align: center;
+        }
+        p{
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+
+        }
+    }
+
+}
+// end about me css
+
+
+// start gallery css
+.gallery{
+    padding: 35px 0 114px;
+    .gallery-area{
+        .gallery-top{
+            h3{
+                font-size: 42;
+                font-weight: 600;
+                line-height: 48px;
+                text-align: center;
+            }
+           span{
+            width: 100px;
+            height: 3px;
+            background-color: #ffd937;
+           }
+            p{
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 29px;
+                text-align: center;
+                padding: 20px 0 30px;
+            }
+            ul{
+                text-align: center;
+                padding-bottom:20px;
+                li{
+                    display: inline-block;
+                    padding: 10px;
+                    a{
+                        &:hover{
+                            color: #ffd937;
+                        }
+                    }
+                }
+            }
+        }
+        img{
+            margin-bottom: 20px;
+            border-radius: 20px;
+        }
+    }
+}
+// end gallery css
+
+// start brand css
+.brand{
+    padding: 36px 0 28px;
+   background-color:rgba($color: #000000, $alpha: 0.1);
+    .brand-area{
+        padding-bottom: 60px;
+        .brand-head{
+            padding: 35px 0;
+       
+        h3{ 
+            font-size: 42;
+            font-weight: 600;
+            line-height: 48px;
+            text-align: center;
+        }
+        span{
+            width: 100px;
+            height: 3px;
+            background-color: #ffd937;
+        }
+    }
+        img{
+            margin-bottom: 20px;
+            border-radius: 20px;
+        }
+    }
+}
+
+
+// contact-section
+.contact-me{
+    padding: 92px 0 110px;
+    .contact-para{
+        padding-top: 100px;  
+        .para-items{
+            h3{
+                font-size: 42px;
+                font-weight: 600;
+                line-height: 29px;
+                padding-bottom: 10px;
+            }
+            p{
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                text-align: justify;
+            }
+        }
+        .contact-way{
+            padding-left: 45px;
+            margin-top: 50px;
+            position: relative;
+            p{
+                font-size: 12px;
+                line-height: 5px;
+            }
+            h4 {
+                padding-bottom: 20px;
+
+            }
+            i.mail{
+                position: absolute;
+                top: 3px;
+                left: 0px;
+                font-size: 20px;
+                background-color: #ffd937;
+                padding: 5px;
+                
+            }
+            i.phone{
+                position: absolute;
+                bottom: 0;
+                left: 0px;
+                font-size: 20px;
+                background-color: #ffd937;
+                padding: 5px;
+            }
+
+        }
+    }
+}
+
+.contact-form{                      
+    form{
+
+        box-shadow: 0px 12px 43px -2px rgba(0, 0, 0, 0.08);
+        padding: 44px 50px 35px;
+        border-radius: 20px;
+        .input-group{
+            padding-top: 19px;
+            p{
+                font-size: 10px;
+            }
+            span{
+                color:#FF0000;
+            }
+            input{
+                border: 1px solid #ddd;
+                background-color:rgba($color: #ddd, $alpha: 0.3);
+                padding: 18px 0px;
+            }
+            input#text {
+                border-radius: 5px;
+                color: black;
+            }
+            label{
+                font-size: 16px;
+                line-height: 19px;
+                font-weight: 600;
+            }
+            textarea{
+                border: 1px solid #ddd;
+                background-color:rgba($color: #ddd, $alpha: 0.3);
+            }
+        }
+        .contact-btn {
+            margin-top: 30px;
+            .common-button{
+                padding: 12px 24px;
+            }
+        }
+    }
+}
+

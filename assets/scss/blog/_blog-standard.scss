@@ -1,0 +1,72 @@
+/*======= Blog Standard =======*/
+
+.blog-area{
+    padding-bottom: 60px;
+    .blog-site{
+        // border-right: 5px solid red;
+        .blog-site-content{
+            margin-bottom: 10px;
+            padding-right: 45px;
+            .site-content-head{
+                h2{
+                    font-size: 36px;
+                    font-weight: 600;
+                }
+                p{
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 29px;
+                    padding: 3px 0 20px;
+                }
+            }
+            .blog-image{
+                img{
+                    padding-bottom: 13px;
+                }
+            }
+            .site-content-bottom{
+                border-bottom: 2px solid #ddd;
+                p{
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 25px;
+                    padding-top: 13px;
+                }
+                .blog-btn{
+                    margin: 5px 0 10px;
+                    a{
+                        padding: 2px 0 14px;
+                        &:hover{
+                            color:#ffd937;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .col-xl-4 {
+        border-left: 3px solid #ddd;
+    }
+    
+    .wedged-site{
+        padding-left: 45px;
+        h2{
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 29px;
+            padding-bottom: 20px;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 29px;
+            padding-bottom: 4px;
+        }
+        h3{
+        padding: 15px 0 18px;
+        }
+    }
+}
+
+
+

@@ -1,0 +1,52 @@
+/*======= Header  =======*/
+.header-area {
+    padding: 15px 0px 15px;
+    .container {
+        .navbar {
+            .container-fluid {
+                font-family: $font-montserrat;
+                .navbar-brand {
+                    font-weight: 500;
+                    font-size: 33px;
+                    line-height: 1.25;
+                    letter-spacing: 2.3px;
+                    img {
+                        padding-right: 7px;
+                    }
+                }
+                .navbar-nav {
+                    .nav-item {
+                        position: relative;
+                        &::after {
+                            position: absolute;
+                            content: "";
+                            bottom: 0;
+                            left: 0;
+                            right: 0;
+                            width: 0;
+                            height: 4px;
+                            border-bottom: 5px;
+                            background-color: #ffd937;
+                            transition: 0.4s;
+                            animation-name: scale;
+                            animation-duration: 0.3s;
+                            animation-direction: reverse;
+                            transform: scale(0);
+                        }
+                        &:hover::after,
+                        &.active::after {
+                            width: 100%;
+                            transform: scale(1);
+                        }
+                        .nav-link {
+                            font-weight: 600;
+                        }
+                    }
+                }
+                .common-button {
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}
